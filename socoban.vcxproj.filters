@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{0b2d52ca-7a88-4e2f-aeeb-d0929c6c3efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{62560d3f-7c94-4303-9fa4-acaca63831c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e268f69c-cc35-42e0-ad3c-61005c6198ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{3513c3ac-7c8b-46f0-9297-b157ada13629}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\Game.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\Renderer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\input.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\Timer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\Game.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\Renderer.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\input.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\Timer.c">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage.c">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Stage\Stage01.txt">
+      <Filter>Stage</Filter>
+    </Text>
+    <Text Include="Stage\Stage02.txt">
+      <Filter>Stage</Filter>
+    </Text>
+    <Text Include="Stage\Stage03.txt">
+      <Filter>Stage</Filter>
+    </Text>
+    <Text Include="Stage\Stage04.txt">
+      <Filter>Stage</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
